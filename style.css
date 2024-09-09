@@ -1,0 +1,76 @@
+body{
+    font-family: Helvetica, arial, sans-serif ;
+margin: 0px ;}
+
+h1 {margin : 0px }
+
+ul {margin: 0px;}
+
+blockquote > cite > a { 
+    display: inline-block ; 
+    width: 100px;
+    height: 50px ;
+}
+body > header {background-color: orange;color: white;
+display: flex;
+height: 12vh;
+align-items: center;
+justify-content: space-around;
+}
+
+
+#logo {color: white; font-family: "fredoka one", sans-serif;
+box-shadow: 10px 10px 30px 5px darkorange;
+width: 25%;
+border-radius: 55%;
+padding: 15px;
+text-align: center;
+text-shadow: 1px 1px 1px 1px  orange;}
+
+
+body > header > nav > ul { list-style: none;
+    text-decoration: none;
+    display: flex;
+   
+  
+    
+
+}
+
+#navul > li {padding: 8px; margin: 16px;}
+.navbutton { 
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: 1px solid white ;
+    border-radius: 20%;
+    
+
+}
+body > main article { width: 70%; margin: auto;}
+.signup {width: 25%; margin: auto;}
+h2 { width: 40%; margin: auto;}
+#main-content { display: flex;justify-content: space-around;}
+#main-conent > div { width: 70%;}
+#main-content aside {text-align: center;border: solid orange;border-width: 0.5cm;}
+
+
+img { border-radius: 100%;}
+
+form {text-align: center;}
+
+
+body > footer { background-color: orange;
+display: flex;
+height: 12vh;} 
+
+#footer-ul {display: flex;
+list-style: none;
+margin-right: 100vh;
+}
+
+#footer-ul > div > li { margin-left: 12px;}
+
+
+#footer-ul > div > li > a { color: white ;text-decoration: none;}
